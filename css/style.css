@@ -927,6 +927,23 @@
 			line-height: 1.5em;
 			margin: 0;
 		}
+		
+/* Article Item */
+
+	.article-item {
+		margin: 0 0 2em 0;
+	}
+
+		.article-item h3 {
+			font-size: 1em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.article-item p {
+			font-size: 0.8em;
+			line-height: 1.5em;
+			margin: 0;
+		}
 
 /* Header */
 
