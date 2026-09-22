@@ -1271,6 +1271,11 @@ span[id*="bibbase-group-count"] {
     display: none !important;
 }
 
+/* Attempt to hide content inside parentheses in BibBase year headers */
+.bibbase-group-title span {
+    display: none;
+}
+
 /* Tighten spacing specifically for the Publications section */
 #two {
     padding-top: 1em; /* Override the default 4em */
