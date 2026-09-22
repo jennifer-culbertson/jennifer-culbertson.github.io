@@ -1261,3 +1261,10 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+/* Hide BibBase year publication counts */
+.bibbase-year-count, 
+.bibbase-group-count,
+span[id*="bibbase-group-count"] {
+    display: none !important;
+}
