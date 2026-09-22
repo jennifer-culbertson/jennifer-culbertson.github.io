@@ -1286,3 +1286,33 @@ span[id*="bibbase-group-count"] {
     margin-top: 0; /* Remove top margin from the title */
     margin-bottom: 0.5em; /* Reduce space below title */
 }
+
+/* --- Aggressive Top Spacing Fix --- */
+
+/* 1. Remove the massive top padding from the main content area */
+#main {
+    padding-top: 2em !important; /* Reduced from default 8em */
+}
+
+/* 2. Remove top margin from the first section specifically */
+#main > section:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    border-top: none !important; /* Remove the divider line if present */
+}
+
+/* 3. Collapse the header inside the first section */
+#one header.major {
+    margin-top: 0 !important;
+    margin-bottom: 0.5em !important;
+}
+
+/* 4. Collapse the first paragraph */
+#one p {
+    margin-top: 0 !important;
+}
+
+/* 5. Ensure the H2 inside the header doesn't push down */
+#one h2 {
+    margin-top: 0 !important;
+}
