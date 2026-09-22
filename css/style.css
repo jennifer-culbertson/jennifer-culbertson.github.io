@@ -954,7 +954,7 @@
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
-		color: rgba(255, 255, 255, 0.5);
+		color: #ffffff; /* <--- THIS FORCES PURE WHITE */
 		height: 100%;
 		left: 0;
 		padding: 8em 4em 0 0;
