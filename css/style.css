@@ -61,7 +61,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -205,6 +205,7 @@
 
 	header.major h2 {
 		font-size: 2em;
+		margin-bottom: 0.5em; /* reduce bottom margin */
 	}
 
 /* Form */
@@ -617,6 +618,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			margin-bottom: 0.5em; /* reduce the bottom margin of the button list */
 		}
 
 			ul.actions li {
@@ -1040,8 +1042,8 @@
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			margin: 2em 0 0 0; /* Reduced margin */
+    		padding: 2em 0 0 0; /* Reduced padding from 4em to 2em */
 		}
 
 			#main > section:first-child {
@@ -1267,4 +1269,15 @@
 .bibbase-group-count,
 span[id*="bibbase-group-count"] {
     display: none !important;
+}
+
+/* Tighten spacing specifically for the Publications section */
+#two {
+    padding-top: 1em; /* Override the default 4em */
+    margin-top: 1em;
+}
+
+#two h2 {
+    margin-top: 0; /* Remove top margin from the title */
+    margin-bottom: 0.5em; /* Reduce space below title */
 }
