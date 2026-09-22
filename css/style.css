@@ -973,7 +973,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: #ffffff; /* <--- THIS FORCES PURE WHITE */
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
