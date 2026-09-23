@@ -1315,3 +1315,8 @@
 .bibbase_stats_paper {
     display: none !important;
 }
+
+#bibbase_header .badge, 
+.bibbase_year .badge {
+    display: none !important;
+}
