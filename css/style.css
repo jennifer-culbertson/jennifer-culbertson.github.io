@@ -1311,12 +1311,12 @@
 #one h2 {
     margin-top: 0 !important;
 }
-
-.bibbase_stats_paper {
+/* NOTE these do not work, style tweaks need to be with the code that imports the bibbase stuff in index.html */
+/* .bibbase_stats_paper {
     display: none !important;
 }
 
 #bibbase_header .badge, 
 .bibbase_year .badge {
     display: none !important;
-}
+} */
